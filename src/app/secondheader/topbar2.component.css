@@ -1,0 +1,14 @@
+.span1028 a{
+    text-decoration: none;
+}
+
+.alert a{
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
