@@ -5,6 +5,10 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './header/topbar.component';
 import { TopBarComponent2 } from './secondheader/topbar2.component';
 import { TopBarComponent3 } from './thirdheader/topbar3.component';
+import { FourthComponent } from './4thheader/4thheader.component';
+import { FifthComponent } from './5thheader/5thheader.component';
+
+
 
 
 @NgModule({
@@ -12,9 +16,11 @@ import { TopBarComponent3 } from './thirdheader/topbar3.component';
     AppComponent,
     TopBarComponent,
     TopBarComponent2,
-    TopBarComponent3
-   
+    TopBarComponent3,
+    FourthComponent,
+    FifthComponent
   ],
+
   imports: [
     BrowserModule,
   ],
